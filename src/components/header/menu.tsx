@@ -4,7 +4,7 @@ import { ThemeSwitch } from "../theme/theme-switch";
 export const Menu = () => {
 
     return (
-        <ul className="items-center hidden gap-5 md:flex">
+        <ul className="items-center hidden gap-5 lg:flex">
             <li className="text-xl">
                 <Link href="#about-me">Sobre mim</Link>
             </li>

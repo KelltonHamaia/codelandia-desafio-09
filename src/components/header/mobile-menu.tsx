@@ -11,7 +11,7 @@ import { ThemeSwitch } from "@/components/theme/theme-switch";
 export const MobileMenu = () => {
 
     return (
-        <div className="flex items-center gap-2 md:hidden">
+        <div className="flex items-center gap-2 lg:hidden">
             <ThemeSwitch />
             <DropdownMenu>
                 <DropdownMenuTrigger asChild>
