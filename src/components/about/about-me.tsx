@@ -1,9 +1,8 @@
 import { Socials } from "@/components/about/socials";
 
 export const AboutMe = () => {
-
     return (
-        <div className="flex flex-col gap-5">
+        <div className="flex flex-col gap-5 my-5">
             <section className="flex flex-col gap-4 lg:py-5 py-2" id="about-me">
                 <h1 className="md:text-3xl text-xl text-center font-bold">Sobre mim</h1>
                 <p className="lg:text-center leading-relaxed text-pretty md:text-lg text-sm text-muted-foreground w-full max-w-xl mx-auto">

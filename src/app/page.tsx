@@ -1,6 +1,7 @@
 import { AboutMe } from "@/components/about/about-me";
 import { Header } from "@/components/header/header";
 import { Presentation } from "@/components/presentation/presentation";
+import { Projects } from "@/components/projects/projects";
 
 const Page = () => {
     return (
@@ -8,6 +9,7 @@ const Page = () => {
             <Header />
             <Presentation />
             <AboutMe />
+            <Projects />
         </div>
     );
 }
