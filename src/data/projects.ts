@@ -1,8 +1,5 @@
 import { ProjectDataType } from "@/types/Project"
 
-// colcoar um item de dica (tipo o do readme em alguns titulos)
-// vai servir pra falar q é uma api e q n tem interface gráfica
-
 export const ProjectsData:ProjectDataType[] = [
     {
         id: 1,
