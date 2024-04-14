@@ -9,7 +9,7 @@ export const Header = () => {
             <Link href="/" className="flex items-center gap-2 text-sm font-bold md:text-3xl">
                 <img
                     src="/images/brands/brand-alt.svg"
-                    className="size-12"
+                    className="md:size-12 size-5"
                     alt="logo"
                 />
                 &#123;Mkt.dev&#125;
