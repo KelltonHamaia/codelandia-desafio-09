@@ -1,4 +1,5 @@
 import { AboutMe } from "@/components/about/about-me";
+import { Footer } from "@/components/footer/footer";
 import { Header } from "@/components/header/header";
 import { Jobs } from "@/components/jobs/jobs";
 import { Presentation } from "@/components/presentation/presentation";

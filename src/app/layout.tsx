@@ -4,6 +4,7 @@ import { cn } from "@/lib/utils"
 
 import "@/styles/globals.css"
 import { ThemeProvider } from "@/components/theme/theme-provider";
+import { Footer } from "@/components/footer/footer";
 
 const fontSans = FontSans({
     subsets: ["latin"],
@@ -42,6 +43,7 @@ export default function RootLayout({
                     disableTransitionOnChange
                 >
                     {children}
+                    <Footer />
                 </ThemeProvider>
             </body>
         </html>
