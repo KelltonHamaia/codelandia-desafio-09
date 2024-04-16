@@ -3,7 +3,7 @@
 # Desafio 09: `Projeto Portfólio😀` 
 
 Este projeto foi feito com base nos desafios da comunidade do Discord chamada [Codelândia](https://discord.gg/RWM8B83K), mais especificamente o desafio 09, onde deve ser desenvolvido um portfólio! 
-### Para ver a demonstração, [clique aqui ](https://codelandia-desafio-09.vercel.app/)  
+### Para ver a demonstração, [clique aqui ](https://portfolio-challenger.vercel.app/)  
 Neste projeto, utilizei as seguintes tecnologias: 
  - **Next.JS (App router)**
  - **React.js**
