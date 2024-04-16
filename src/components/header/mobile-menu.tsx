@@ -1,5 +1,3 @@
-"use client"
-
 import {
     DropdownMenu, DropdownMenuTrigger, DropdownMenuContent, DropdownMenuSeparator, DropdownMenuItem,
 } from "@/components/ui/dropdown-menu"
@@ -8,7 +6,6 @@ import { Menu } from 'lucide-react'
 import { Button } from "../ui/button";
 import Link from "next/link";
 import { ThemeSwitch } from "@/components/theme/theme-switch";
-import { useState } from "react";
 
 export const MobileMenu = () => {
 
