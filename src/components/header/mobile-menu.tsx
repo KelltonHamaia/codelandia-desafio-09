@@ -1,19 +1,21 @@
+"use client"
+
 import {
     DropdownMenu, DropdownMenuTrigger, DropdownMenuContent, DropdownMenuSeparator, DropdownMenuItem,
-    DropdownMenuLabel
 } from "@/components/ui/dropdown-menu"
 
 import { Menu } from 'lucide-react'
 import { Button } from "../ui/button";
 import Link from "next/link";
 import { ThemeSwitch } from "@/components/theme/theme-switch";
+import { useState } from "react";
 
 export const MobileMenu = () => {
 
     return (
         <div className="flex items-center gap-2 lg:hidden">
             <ThemeSwitch />
-            <DropdownMenu>
+            <DropdownMenu modal={false}>
                 <DropdownMenuTrigger asChild>
                     <Button>
                         <Menu size={24} />
