@@ -3,7 +3,7 @@ import { SocialDataType } from "@/types/Socials";
 export const SocialCard = ({ title, value, icon }: Omit<SocialDataType, "id">) => {
 
     return (
-        <div className='flex flex-col justify-center items-center gap-2 '>
+        <div className='flex flex-col justify-center items-center gap-2 md:my-4'>
             <span className="lg:size-16 size-10 flex items-center justify-center rounded-full bg-secondary">
                 {icon}
             </span>
