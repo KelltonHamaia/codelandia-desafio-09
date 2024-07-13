@@ -108,21 +108,26 @@ export const Technologies: StackType[] = [
     },
     {
         id: 22,
+        name: "Python",
+        icon: "/images/techs/python.svg"
+    },
+    {
+        id: 23,
         name: "Git",
         icon: "/images/techs/git.svg"
     },
     {
-        id: 23,
+        id: 24,
         name: "Express",
         icon: "/images/techs/express.svg"
     },
     {
-        id: 24,
+        id: 25,
         name: "Prisma",
         icon: "/images/techs/prisma.svg"
     },
     {
-        id: 25,
+        id: 26,
         name: "Sequelize",
         icon: "/images/techs/sequelize.svg"
     }
