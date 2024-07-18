@@ -12,14 +12,25 @@ const fontSans = FontSans({
 })
 
 export const metadata: Metadata = {
-    title: "Codelândia - Projeto Portfólio",
+    title: {
+        absolute: "Hamaia.dev",
+        default: "Hamaia.dev"
+    },
     authors: {
         name: "Kellton Makito Hamaia Arai",
         url: "https://github.com/KelltonHamaia"
     },
-    description: "Desafio 09 da comunidade do discord Codelândia!",
+    description: "Fala dev! Meu nome é Kellton, mas pode me chamar de kell! Sou um desenvolvedor fullstack mas tenho um apreço maior pelo front-end!",
+    openGraph: {
+        images: "/images/banner/myself-in-anime.webp",
+        authors: ["Kellton Makito Hamaia Arai"],
+    },
     icons: {
         icon: "/favicon.ico"
+    },
+    robots: {
+        follow: true,
+        index: true
     }
 };
 
