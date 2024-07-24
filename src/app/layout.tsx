@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     },
     description: "Fala dev! Meu nome é Kellton, mas pode me chamar de kell! Sou um desenvolvedor fullstack mas tenho um apreço maior pelo front-end!",
     openGraph: {
-        images: "/images/banner/myself-in-anime.webp",
+        images: "https://raw.githubusercontent.com/KelltonHamaia/codelandia-desafio-09/main/public/images/banner/myself-in-anime.webp",
         authors: ["Kellton Makito Hamaia Arai"],
     },
     icons: {
